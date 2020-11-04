@@ -1,0 +1,27 @@
+.footerBlock {
+    height: 30vh;
+    background: #acefa0;
+
+}
+
+.footerContainer {
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.title {
+    background: #c4eac4;
+}
+
+.socialLinks {
+    border: 2px dotted whitesmoke;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.copyRight {
+
+}
+

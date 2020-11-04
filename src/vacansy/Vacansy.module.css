@@ -1,0 +1,15 @@
+.vacancyBlock {
+    height: 20vh;
+    background: #a0d9ef;
+}
+
+.vacancyContainer {
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.title {
+    background: #d4e5ec;
+}
+
+

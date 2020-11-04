@@ -1,0 +1,15 @@
+.contactsBlock {
+    height: 100vh;
+    background: #a0c6ef;
+}
+
+.contactsContainer {
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.title {
+    background: #c7e1e2;
+}
+
+
