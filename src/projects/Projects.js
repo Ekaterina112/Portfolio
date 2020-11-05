@@ -14,6 +14,9 @@ function Projects() {
                              link={"link #1"} titleLink={"here will be img-link"}/>
                     <Project title={"Second Project"} description={"short description of the project..."}
                              link={"link #2"} titleLink={"here will be img-link"}/>
+                    <Project title={"Second Project"} description={"short description of the project..."}
+                             link={"link #2"} titleLink={"here will be img-link"}/>
+
                 </div>
             </div>
         </div>

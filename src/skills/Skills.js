@@ -13,6 +13,9 @@ function Skills() {
                     <Skill title ={"First Step"} description={"here will be different text"}/>
                     <Skill title ={"Second Step"}description={".....here too"}/>
                     <Skill title ={"Third Step"}description={"...and here"}/>
+                    <Skill title ={"Next Step"}description={"..."}/>
+                    <Skill title ={"Next Step"}description={"..."}/>
+                    <Skill title ={"Next Step"}description={"..."}/>
                 </div>
             </div>
         </div>
