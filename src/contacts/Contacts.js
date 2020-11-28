@@ -10,7 +10,6 @@ function Contacts() {
             <div className={`${stylesContainer.container} ${styles.contactsContainer}`}>
                 <h2 className={styles.title}> Contacts </h2>
                 <Form/>
-                <button>SEND</button>
             </div>
         </div>
     );

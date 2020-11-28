@@ -16,7 +16,12 @@
     border: 2px dotted whitesmoke;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
+@media screen and (max-width: 936px) {
+    .projects{
+        justify-content: center;
+    }
+}

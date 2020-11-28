@@ -9,6 +9,7 @@ function Form() {
                 <input/>
                 <input/>
                 <textarea/>
+                <button type={"submit"}> Submit </button>
             </form>
     );
 }

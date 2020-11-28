@@ -8,11 +8,14 @@ function Main() {
         <div className={styles.mainBlock}>
             <div className={stylesContainer.container}>
                 <div className={styles.greeting}>
-                    <span>Hi There</span>
-                    <h1>I am Ekaterina</h1>
-                    <p>Beginner Front-end Developer</p>
+                    <h5>Hello, my name is</h5>
+                    <h1>Ekaterina Naumchyk</h1>
+                    <h5>Front-end Developer based in #Minsk</h5>
+                    {/*//<p>LET'S BUILD SOMETHING GREAT TOGETHER</p>*/}
                 </div>
-                <div className={styles.photo}></div>
+                <div className={styles.photo}>
+                    <img src={require('./../photo.jpg')}  alt="it's me" />
+                </div>
             </div>
         </div>
     );

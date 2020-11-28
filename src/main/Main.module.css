@@ -1,10 +1,10 @@
 .mainBlock {
     height: 100vh;
-    background: #efa0e4;
+    background: #f5f5f5;
 }
 
 .greeting {
-    width: 300px;
+    width: 500px;
     background-color: whitesmoke;
 }
 
@@ -12,4 +12,21 @@
     width: 300px;
     height: 400px;
     background-color: whitesmoke;
+}
+.greeting h5 {
+    font-size: 16px;
+    color: #919191;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+}
+.greeting h1 {
+    font-size: 38px;
+    color: #414141;
+    line-height: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 15px;
 }
