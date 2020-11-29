@@ -11,10 +11,10 @@ function Main() {
                     <h5>Hello, my name is</h5>
                     <h1>Ekaterina Naumchyk</h1>
                     <h5>Front-end Developer based in #Minsk</h5>
-                    {/*//<p>LET'S BUILD SOMETHING GREAT TOGETHER</p>*/}
+                    <p>Let's build something great together</p>
                 </div>
                 <div className={styles.photo}>
-                    <img src={require('./../photo.jpg')}  alt="it's me" />
+                    <img src='photo.jpg'  alt="it's me" />
                 </div>
             </div>
         </div>

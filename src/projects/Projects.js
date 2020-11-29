@@ -8,7 +8,10 @@ function Projects() {
     return (
         <div className={styles.projectsBlock}>
             <div className={`${stylesContainer.container} ${styles.projectsContainer}`}>
-                <h2 className={styles.title}>Projects </h2>
+                <div className={styles.title}>
+                    <h2>Projects </h2>
+                </div>
+
                 <div className={styles.projects}>
                     <Project title={"First Project"} description={"short description of the project..."}
                              link={"link #1"} titleLink={"here will be img-link"}/>

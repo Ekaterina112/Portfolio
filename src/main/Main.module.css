@@ -6,6 +6,7 @@
 .greeting {
     width: 500px;
     background-color: whitesmoke;
+    text-align: left;
 }
 
 .photo {
@@ -29,4 +30,11 @@
     font-weight: 700;
     text-transform: uppercase;
     margin: 0 0 15px;
+}
+.greeting p {
+    font-family: 'Poppins', sans-serif;
+    color: #6a6a6a;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
 }
