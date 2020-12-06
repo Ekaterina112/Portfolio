@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Projects.module.css';
 import stylesContainer from '../common/styles/Container.module.css'
 import Project from "./project/Project";
+import Title from "../common/title/Title";
 
 
 function Projects() {
@@ -9,7 +10,7 @@ function Projects() {
         <div className={styles.projectsBlock}>
             <div className={`${stylesContainer.container} ${styles.projectsContainer}`}>
                 <div className={styles.title}>
-                    <h2>Projects </h2>
+                    <Title title={'My portfolio'}/>
                 </div>
 
                 <div className={styles.projects}>

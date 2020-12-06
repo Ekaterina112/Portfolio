@@ -10,10 +10,15 @@
 }
 
 .photo {
-    width: 300px;
-    height: 400px;
-    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
 }
+
+.photo img {
+    width: 50vh;
+    height: 70vh;
+}
+
 .greeting h5 {
     font-size: 16px;
     color: #919191;
@@ -22,6 +27,7 @@
     margin: 0 0 15px;
     text-transform: uppercase;
 }
+
 .greeting h1 {
     font-size: 38px;
     color: #414141;
@@ -31,6 +37,7 @@
     text-transform: uppercase;
     margin: 0 0 15px;
 }
+
 .greeting p {
     font-family: 'Poppins', sans-serif;
     color: #6a6a6a;

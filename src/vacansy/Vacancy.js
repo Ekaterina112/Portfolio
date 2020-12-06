@@ -1,13 +1,14 @@
 import React from 'react'
 import styles from './Vacansy.module.css';
 import stylesContainer from '../common/styles/Container.module.css'
+import Title from "../common/title/Title";
 
 
 function Vacancy() {
     return (
         <div className={styles.vacancyBlock}>
             <div className={`${stylesContainer.container} ${styles.vacancyContainer}`}>
-                <h2 className={styles.title}> I Am Available For Freelancer </h2>
+                <Title title={'I Am Available For Freelancer '}/>
                 <button>HIRE ME</button>
             </div>
 
