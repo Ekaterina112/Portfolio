@@ -8,7 +8,7 @@ function Vacancy() {
     return (
         <div className={styles.vacancyBlock}>
             <div className={`${stylesContainer.container} ${styles.vacancyContainer}`}>
-                <Title title={'I Am Available For Freelancer '}/>
+                <Title title={'I Am Available For Freelance '}/>
                 <button className={styles.button}>HIRE ME</button>
             </div>
 

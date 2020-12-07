@@ -1,0 +1,10 @@
+.runningLineBlock {
+    height: 20vh;
+    background: #ffffff;
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #414141;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
