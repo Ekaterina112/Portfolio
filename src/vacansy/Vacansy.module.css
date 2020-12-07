@@ -1,6 +1,8 @@
 .vacancyBlock {
     height: 20vh;
     background: #a0d9ef;
+    padding: 100px;
+
 }
 
 .vacancyContainer {
@@ -11,5 +13,7 @@
 .title {
     background: #d4e5ec;
 }
-
+.button {
+    margin-top: 60px;
+}
 

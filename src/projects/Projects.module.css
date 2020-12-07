@@ -1,6 +1,7 @@
 .projectsBlock {
     min-height: 100vh;
     background: #efb6a0;
+    padding: 80px 0;
 }
 
 .projectsContainer {
@@ -13,6 +14,7 @@
 }
 
 .projects{
+    margin-top: 60px;
     border: 2px dotted whitesmoke;
     width: 100%;
     display: flex;

@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Skills.module.css';
 import stylesContainer from '../common/styles/Container.module.css'
 import Skill from "./skill/Skill";
-import Title from "../common/title/Title";
+import Title from "../common/components/title/Title";
 
 
 function Skills() {

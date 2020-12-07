@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Contacts.module.css';
 import stylesContainer from '../common/styles/Container.module.css'
 import Form from "./form/Form";
-import Title from "../common/title/Title";
+import Title from "../common/components/title/Title";
 
 
 function Contacts() {

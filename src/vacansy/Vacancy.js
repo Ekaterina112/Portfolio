@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Vacansy.module.css';
 import stylesContainer from '../common/styles/Container.module.css'
-import Title from "../common/title/Title";
+import Title from "../common/components/title/Title";
 
 
 function Vacancy() {
@@ -9,7 +9,7 @@ function Vacancy() {
         <div className={styles.vacancyBlock}>
             <div className={`${stylesContainer.container} ${styles.vacancyContainer}`}>
                 <Title title={'I Am Available For Freelancer '}/>
-                <button>HIRE ME</button>
+                <button className={styles.button}>HIRE ME</button>
             </div>
 
         </div>

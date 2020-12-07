@@ -4,6 +4,8 @@ import styles from './Title.module.css';
 
 
 function Title (props) {
-    return  <h2 className={styles.title}>{props.title} </h2>
+    return <div>
+        <h2 className={styles.title}>{props.title} </h2>
+    </div>
 }
 export default Title;

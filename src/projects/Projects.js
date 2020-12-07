@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Projects.module.css';
 import stylesContainer from '../common/styles/Container.module.css'
 import Project from "./project/Project";
-import Title from "../common/title/Title";
+import Title from "../common/components/title/Title";
 
 
 function Projects() {
