@@ -1,6 +1,5 @@
 .contactsBlock {
     height: 100vh;
-    background: #ffffff;
     padding: 100px;
 }
 
@@ -9,8 +8,5 @@
     flex-direction: column;
 }
 
-.title {
-    background: #c7e1e2;
-}
 
 

@@ -7,11 +7,13 @@ import Title from "../common/components/title/Title";
 
 function Contacts() {
     return (
+        <div className={'ourNth'}>
         <div className={styles.contactsBlock}>
             <div className={`${stylesContainer.container} ${styles.contactsContainer}`}>
                 <Title title={'GET IN TOUCH'}/>
                 <Form/>
             </div>
+        </div>
         </div>
     );
 }

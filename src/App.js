@@ -11,7 +11,7 @@ import RunningLine from "./runningLine/RunningLine";
 
 function App() {
     return (
-        <div className="App">
+        <div className='App'>
             <Header/>
             <Main/>
             <RunningLine/>

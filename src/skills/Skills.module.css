@@ -1,16 +1,11 @@
 .skillsBlock {
     min-height: 100vh;
-    background: #f5f5f5;
     padding: 100px;
 }
 
 .skillsContainer {
     justify-content: flex-start;
     flex-direction: column;
-}
-
-.title {
-    background: #ecefa0;
 }
 
 .skills {

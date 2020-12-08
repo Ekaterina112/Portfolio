@@ -1,6 +1,6 @@
 .project {
     width: 250px;
-    background-color: whitesmoke;
+    background-color: #ddd2d2;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,6 +10,6 @@
 .icon {
     width: 80px;
     height: 100px;
-    background-color: whitesmoke;
+    background-color: #fcf9f9;
 }
 

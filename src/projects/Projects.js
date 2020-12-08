@@ -7,6 +7,7 @@ import Title from "../common/components/title/Title";
 
 function Projects() {
     return (
+        <div className={'ourNth'}>
         <div className={styles.projectsBlock}>
             <div className={`${stylesContainer.container} ${styles.projectsContainer}`}>
                 <div className={styles.title}>
@@ -23,6 +24,7 @@ function Projects() {
 
                 </div>
             </div>
+        </div>
         </div>
     );
 }
