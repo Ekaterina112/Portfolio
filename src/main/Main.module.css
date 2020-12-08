@@ -1,5 +1,8 @@
 .mainBlock {
-    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
 .greeting {
@@ -10,21 +13,15 @@
 .photo {
     display: flex;
     flex-direction: column;
+    width: 500px;
 }
 
 .photo img {
-    width: 50vh;
-    height: 70vh;
+    height: auto;
+    width: 100%;
+    max-width: 720px;
 }
 
-.greeting h5 {
-    font-size: 16px;
-    color: #919191;
-    letter-spacing: 1px;
-    font-family: 'Montserrat', sans-serif;
-    margin: 0 0 15px;
-    text-transform: uppercase;
-}
 
 .greeting h1 {
     font-size: 38px;
@@ -34,6 +31,14 @@
     font-weight: 700;
     text-transform: uppercase;
     margin: 0 0 15px;
+}
+.greeting h5 {
+    font-size: 16px;
+    color: #919191;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 0 15px;
+    text-transform: uppercase;
 }
 
 .greeting p {

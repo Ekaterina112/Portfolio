@@ -1,11 +1,11 @@
 .runningLineBlock {
-    height: 20vh;
-    font-size: 70px;
+    min-height: 20vh;
+    padding: 80px 0 ;
+    font-size: 50px;
     font-weight: 700;
     text-transform: uppercase;
     color: #414141;
     letter-spacing: 1px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-
 }

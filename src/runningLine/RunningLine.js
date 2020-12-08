@@ -1,7 +1,5 @@
 import React from 'react'
 import styles from './RunningLine.module.css';
-import stylesContainer from '../common/styles/Container.module.css'
-import Title from "../common/components/title/Title";
 
 
 function RunningLine() {
