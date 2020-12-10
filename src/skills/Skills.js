@@ -3,6 +3,7 @@ import styles from './Skills.module.css';
 import stylesContainer from '../common/styles/Container.module.css'
 import Skill from "./skill/Skill";
 import Title from "../common/components/title/Title";
+import Button from "../common/button/Button";
 
 
 function Skills() {
