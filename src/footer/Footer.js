@@ -5,7 +5,6 @@ import stylesContainer from '../common/styles/Container.module.css'
 
 function Footer() {
     return (
-        <div className={'ourNth'}>
         <div className={styles.footerBlock}>
             <div className={`${stylesContainer.container} ${styles.footerContainer}`}>
                 <a href={'#home'}>
@@ -18,7 +17,6 @@ function Footer() {
                 </ul>
                 <p className={styles.copyRight}>© 2021, All Rights Reserved.</p>
             </div>
-        </div>
         </div>
     );
 }

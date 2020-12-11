@@ -3,12 +3,11 @@ import styles from './Skills.module.css';
 import stylesContainer from '../common/styles/Container.module.css'
 import Skill from "./skill/Skill";
 import Title from "../common/components/title/Title";
-import Button from "../common/button/Button";
+
 
 
 function Skills() {
     return (
-        <div className={'ourNth'}>
         <div className={styles.skillsBlock}>
             <div className={`${stylesContainer.container} ${styles.skillsContainer}`}>
                 <Title title={'My Skills'}/>
@@ -21,7 +20,6 @@ function Skills() {
                     <Skill title ={"Next Step"}description={"..."}/>
                 </div>
                 </div>
-            </div>
         </div>
     );
 }

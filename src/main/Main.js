@@ -6,7 +6,6 @@ import Button from "../common/button/Button";
 
 function Main() {
     return (
-        <div className={'ourNth'}>
         <div className={styles.mainBlock}>
             <div className={stylesContainer.container}>
                 <div className={styles.greeting}>
@@ -19,7 +18,6 @@ function Main() {
                     <img src={photo} alt="it's me"   />
                 </div>
             </div>
-        </div>
         </div>
     );
 }

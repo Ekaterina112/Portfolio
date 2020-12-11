@@ -3,7 +3,7 @@
   background-color:#f5f5f5 ;
 }
 
-.ourNth:nth-child(2n+3)
+.App > div:nth-child(2n+3)
 {
-  background:#ffffff ;
+  background:#ffffff;
 }

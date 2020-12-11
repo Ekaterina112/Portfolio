@@ -7,14 +7,12 @@ import Button from "../common/button/Button";
 
 function Vacancy() {
     return (
-        <div className={'ourNth'}>
             <div className={styles.vacancyBlock}>
                 <div className={`${stylesContainer.container} ${styles.vacancyContainer}`}>
                     <Title title={'I Am Available For Freelance'}/>
                     <Button title={" HIRE ME"}/>
                 </div>
             </div>
-        </div>
     );
 }
 
