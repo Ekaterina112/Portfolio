@@ -3,4 +3,12 @@
     width: 300px;
     display: flex;
     justify-content: space-between;
+    color: #777777;
+    line-height: 40px;
+    padding: 0 5px;
+    position: relative;
+    letter-spacing: 0.40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
 }
