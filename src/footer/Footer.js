@@ -7,15 +7,14 @@ function Footer() {
     return (
         <div className={styles.footerBlock}>
             <div className={`${stylesContainer.container} ${styles.footerContainer}`}>
-                <a href={'#home'}>
-                    <h2 className={styles.title}> Ekaterina Naumchik </h2>
-                </a>
-                <ul className={styles.socialLinks}>
+                <p className={styles.copyRightBlock}>© 2021, All Rights Reserved.</p>
+                <ul className={styles.socialLinksBlock}>
                     <li><a href={'git'}>git</a></li>
-                    <li><a href={'instagram'}>instagram</a></li>
                     <li><a href={'linkedIn'}>linkedIn</a></li>
+                    <li><a href={'email'}>email</a></li>
+                    <li><a href={'instagram'}>instagram</a></li>
                 </ul>
-                <p className={styles.copyRight}>© 2021, All Rights Reserved.</p>
+
             </div>
         </div>
     );
