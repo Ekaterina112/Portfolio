@@ -8,5 +8,12 @@
     flex-direction: column;
 }
 
-
+.formAndData{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    padding: 20px;
+    width: 100%;
+    margin: 40px auto;
+}
 
