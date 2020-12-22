@@ -3,13 +3,12 @@ import styles from './Projects.module.css';
 import stylesContainer from '../common/styles/Container.module.css'
 import Project from "./project/Project";
 import Title from "../common/components/title/Title";
-import stylesFromProject from './project/Project.module.css'
 import imgOne from './../assets/images/gallery-photo-1.png'
-import imgTwo from './../assets/images/gallery-photo-2.png'
-import imgThree from './../assets/images/gallery-photo-3.png'
-import imgFour from './../assets/images/gallery-photo-4.png'
+import imgTwo from '../assets/images/gallery-photo-2.png'
+import imgThree from '../assets/images/gallery-photo-3.png'
+import imgFour from '../assets/images/gallery-photo-4.png'
 import imgFive from '../assets/images/gallery-photo-5.png'
-import imgSix from './../assets/images/gallery-photo-6.png'
+import imgSix from '../assets/images/gallery-photo-6-7.png'
 import imgEight from '../assets/images/gallery-photo-8.png'
 
 
@@ -23,20 +22,23 @@ function Projects() {
     }
     const project3 = {
         backgroundImage: `url(${imgThree})`,
+        height: 250
     }
     const project4 = {
         backgroundImage: `url(${imgFour})`,
-        height: 250
+
     }
     const project5 = {
         backgroundImage: `url(${imgFive})`,
-        height: 250
+
     }
     const project6 = {
         backgroundImage: `url(${imgSix})`,
+        height: 250
     }
     const project8 = {
         backgroundImage: `url(${imgEight})`,
+
     }
     return (
         <div className={styles.projectsBlock}>
@@ -44,7 +46,7 @@ function Projects() {
                 <Title title={'My portfolio'}/>
                 <div className={styles.projects}>
                     <Project
-                        title={"project title"}
+                        title={"todolist"}
                         style={project1}
                         description={"short description of the project..."}
                         link={"link #1"} />
@@ -62,38 +64,34 @@ function Projects() {
                         link={"link #4"} />
 
                     <Project
-                        title={"Todolist"}
+                        title={"future project"}
                         style={project4}
-                        description={"short description of the project..."}
+                        description={"...in progress"}
                         link={"link #3"} />
 
                     <Project
-                        title={"project title"}
+                        title={"future project"}
                         style={project5}
-                        description={"short description of the project..."}
+                        description={"...in progress"}
                         link={"link #5"} />
 
                     <Project
-                        title={"project title"}
+                        title={"future project"}
                         style={project6}
-                        description={"short description of the project..."}
+                        description={"...in progress"}
                         link={"link #6"} />
 
                     <Project
-                        title={"project title"}
-                        style={project4}
-                        description={"short description of the project..."}
+                        title={"future project"}
+                        style={project6}
+                        description={"...in progress"}
                         link={"link #1"} />
 
                     <Project
-                        title={"project title"}
+                        title={"future project 8"}
                         style={project8}
-                        description={"short description of the project..."}
+                        description={"...in progress"}
                         link={"link #2"} />
-
-                    <span className={`${stylesFromProject.item} ${styles.break}`}></span>
-                    <span className={`${stylesFromProject.item} ${styles.break}`}></span>
-                    <span className={`${stylesFromProject.item} ${styles.break}`}></span>
 
                 </div>
             </div>

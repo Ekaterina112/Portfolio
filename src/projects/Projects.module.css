@@ -1,6 +1,5 @@
 .projectsBlock {
-    min-height: 100vh;
-    padding: 80px 0;
+    padding: 80px 0 0;
 }
 
 .projectsContainer {
@@ -11,25 +10,33 @@
 }
 
 .projects {
-    display: flex;
-    flex-flow: column wrap;
-    height: 100vh;
-    width: 85%;
-    margin: 40px auto;
-
-}
-.break {
-    flex-basis: 100%;
-    width: 0;
-    margin: 0;
-    content: "";
-    padding: 0;
+    column-count: 4;
+    column-gap: 15px;
+    margin: 60px 100px 0;
 }
 
-@media screen and (max-width: 936px) {
+
+@media only screen and (max-width: 480px) {
     .projects {
-        justify-content: center;
+        column-count: 1;
+        margin: 60px 20px 0;
     }
 }
+
+@media only screen and (min-width: 481px) and (max-width: 620px) {
+    .projects {
+        column-count: 2;
+        margin: 60px 20px 0;
+    }
+}
+
+@media only screen and (min-width: 621px) and (max-width: 1023px) {
+    .projects {
+        column-count: 3;
+        margin: 60px 0 0;
+    }
+}
+
+
 
 
