@@ -9,15 +9,15 @@ function DataContacts() {
                 <ul>
                     <li>
                     <h4>Phone</h4>
-                        <a className="montserrat weight-regular" href="tel:+88-669-658-6586">+88 669 658 6586</a>
+                        <a  href="tel:+88-669-658-6586">+375-29-807-50-50</a>
                     </li>
                     <li>
                         <h4>Email</h4>
-                        <a href></a>
+                        <a href>ekaterinan112@gmail.com</a>
                     </li>
                     <li>
-                        <h4>Our Location</h4>
-                        <span></span>
+                        <h4>My Location</h4>
+                        <span>Minsk, Belarus</span>
                     </li>
                 </ul>
 

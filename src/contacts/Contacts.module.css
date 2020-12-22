@@ -9,11 +9,12 @@
 }
 
 .formAndData{
+    margin-top: 60px;
     display: flex;
     flex-flow: row wrap;
     align-content: space-between;
-    padding: 20px;
     width: 100%;
-    margin: 40px auto;
+    border: 2px dotted whitesmoke;
+    justify-content: space-evenly;
 }
 
