@@ -12,12 +12,10 @@ function Skills() {
             <div className={`${stylesContainer.container} ${styles.skillsContainer}`}>
                 <Title title={'My Skills'}/>
                 <div className={styles.skills}>
-                    <Skill title ={"First Step"} description={"here will be different text"}/>
-                    <Skill title ={"Second Step"}description={".....here too"}/>
-                    <Skill title ={"Third Step"}description={"...and here"}/>
-                    <Skill title ={"Next Step"}description={"..."}/>
-                    <Skill title ={"Next Step"}description={"..."}/>
-                    <Skill title ={"Next Step"}description={"..."}/>
+                    <Skill title ={'DEVELOPMENT'} description={"React, Redux, AXIOS etc"}/>
+                    <Skill title ={'FOUNDATION'} description={"JavaScript, TypeScript, HTML5, CSS3"}/>
+                    <Skill title ={'TESTING'} description={"Unit Tests, SnapShot, Storybook"}/>
+                    <Skill title ={'DESIGN'} description={"Material UI, Ant-Design etc"}/>
                 </div>
                 </div>
         </div>

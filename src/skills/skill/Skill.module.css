@@ -1,16 +1,47 @@
 .skill {
-    width: 250px;
-    background-color: whitesmoke;
+    width: 240px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 100px;
+    padding: 50px 10px 60px 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 5px rgba(5, 5, 6, 0.15);
+}
+
+.skill h5 {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    size: 24px;
+}
+
+.hR {
+    margin: 15px auto;
+    width: 50px;
+}
+
+.skill hr {
+    border: 0;
+    border-top: 2px solid #dbdbdb;
+}
+
+.skill p {
+    font-family: 'Poppins', sans-serif;
+    color: #979797;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0;
 }
 
 .icon {
     width: 60px;
     height: 60px;
-    background-color: whitesmoke;
+    background-color: snow;
+    margin-bottom: 20px;
 }
 

@@ -1,5 +1,4 @@
 .skillsBlock {
-    min-height: 100vh;
     padding: 100px;
 }
 
@@ -10,7 +9,6 @@
 
 .skills {
     margin-top: 60px;
-    border: 2px dotted whitesmoke;
     width: 100%;
     display: flex;
     justify-content: space-evenly;

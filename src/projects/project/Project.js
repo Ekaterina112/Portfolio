@@ -1,14 +1,13 @@
 import React from 'react'
-import styles from './Project.module.css';
+import s from './Project.module.css';
 
-
-function Project(props) {
+export const Project = ({img, description, link, title}) => {
     return (
-        <div className={`${styles.project} ${styles.item}`}>
-            <div className={styles.img} style={props.style}>
-                <h3>{props.title}</h3>
-                <span className={styles.description}>{props.description}</span>
-                <a href={props.link}>
+        <div className={s.project}>
+            <div className={s.img} style={{backgroundImage: `url(${img})`}}>
+                <h3>{title}</h3>
+                <span className={s.description}>{description}</span>
+                <a href={link}>
                     <button>view project</button>
                 </a>
             </div>
@@ -16,4 +15,3 @@ function Project(props) {
     );
 }
 
-export default Project;
