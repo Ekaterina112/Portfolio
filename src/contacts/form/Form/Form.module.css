@@ -1,10 +1,11 @@
 .form {
-    width: 50%;
+    min-width: 500px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-start;
     text-align: center;
+    justify-content: space-around;
 }
 
 .form input {
@@ -27,11 +28,10 @@
     font-weight: 300;
     line-height: 26px;
     border: 1px solid #d9d9d9;
-    -webkit-box-shadow: none;
-    box-shadow: none;
     margin-bottom: 20px;
     width: 90%;
     height: 100px;
+    resize: none;
 }
 
 .inputBlock {
@@ -41,11 +41,6 @@
     width: 90%;
 }
 
-/*@media screen and (max-width: 420px) {
-    .form {
-        width: 100%;
-    }
-}*/
 .btn {
     font-family: 'Montserrat', sans-serif;
     background-color: #393939;

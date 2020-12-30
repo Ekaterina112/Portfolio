@@ -1,7 +1,9 @@
 .dataBlock {
     display: flex;
     flex-direction: row;
-    margin: 15px 0;
+    width: 240px;
+    align-items: center;
+    text-align: left;
 }
 
 .description {

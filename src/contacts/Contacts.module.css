@@ -12,9 +12,8 @@
     margin-top: 60px;
     display: flex;
     flex-flow: row wrap;
-    align-content: space-between;
     width: 100%;
     border: 2px dotted whitesmoke;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 

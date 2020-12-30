@@ -8,7 +8,7 @@ export const Project = ({img, description, link, title}) => {
                 <h3>{title}</h3>
                 <span className={s.description}>{description}</span>
                 <a href={link}>
-                    <button>view project</button>
+                    <button className={s.btn}>view project</button>
                 </a>
             </div>
         </div>
