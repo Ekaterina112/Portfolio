@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './Contacts.module.css';
 import stylesContainer from '../common/styles/Container.module.css'
-import Form from "./form/Form";
+import Form from "./form/Form/Form";
 import Title from "../common/components/title/Title";
-import DataContacts from "./form/DataContacts";
+import ContactsData from "./form/ContactsData/ContactsData";
 
 
 function Contacts() {
@@ -12,7 +12,7 @@ function Contacts() {
             <div className={`${stylesContainer.container} ${styles.contactsContainer}`}>
                 <Title title={'GET IN TOUCH'}/>
                 <div className={styles.formAndData}>
-                    <DataContacts/>
+                    <ContactsData/>
                     <Form/>
                 </div>
 
