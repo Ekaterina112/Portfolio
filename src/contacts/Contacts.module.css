@@ -1,6 +1,5 @@
 .contactsBlock {
-    height: 100vh;
-    padding: 100px;
+    padding: 100px 20px;
 }
 
 .contactsContainer {
@@ -10,10 +9,9 @@
 
 .formAndData{
     margin-top: 60px;
-    display: flex;
-    flex-flow: row wrap;
     width: 100%;
-    border: 2px dotted whitesmoke;
+    display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
