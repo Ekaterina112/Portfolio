@@ -40,3 +40,8 @@
     text-transform: uppercase;
     font-weight: 600;
 }
+@media only screen and (min-width: 500px) and (max-width: 830px) {
+    .btn {
+        padding: 0 10px;
+    }
+}

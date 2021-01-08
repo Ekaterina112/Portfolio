@@ -4,25 +4,32 @@
     display: flex;
 }
 
-.socialLinksBlock {
+ul {
+    padding: 0;
     display: flex;
     list-style-type: none;
 
 }
-.socialLinksBlock a {
+
+ul a {
     color: #929292;
-    padding-right: 15px;
+    padding: 0 13px;
     font-size: 13px;
     font-weight: 400;
     line-height: 19px;
     text-transform: uppercase;
     text-decoration: none;
 }
+
 .copyRightBlock {
-    color:#929292;
-    padding-left: 15px;
+    color: #929292;
     font-size: 13px;
     font-weight: 400;
     line-height: 19px;
 }
 
+@media screen and (max-width: 640px) {
+    .footerContainer {
+        justify-content: center;
+    }
+}
