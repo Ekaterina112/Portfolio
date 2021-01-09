@@ -10,7 +10,7 @@ function Nav() {
         {value: 'Contacts', href: '/three'}]
     return (
         <div className={s.navigation}>
-            <div>
+            <div className={s.menu}>
                 {items.map(item =>
                     <a href={item.href}> {item.value} </a>
                 )}

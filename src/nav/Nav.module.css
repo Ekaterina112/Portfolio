@@ -22,7 +22,9 @@
     letter-spacing: 0.40px;
 }
 
-
+@media screen and (max-width: 564px){
+.menu { display: none}
+}
 
 
 
