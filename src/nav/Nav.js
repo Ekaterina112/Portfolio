@@ -2,6 +2,7 @@ import React from 'react'
 import s from './Nav.module.css';
 import BurgerMenu from "./BurgerMenu/BurgerMenu";
 
+
 function Nav() {
     const items = [
         {value: 'Home', href: '/first'},
@@ -10,6 +11,7 @@ function Nav() {
         {value: 'Contacts', href: '/three'}]
     return (
         <div className={s.navigation}>
+            <div className={s.container}>
             <div className={s.menu}>
                 {items.map(item =>
                     <a href={item.href}> {item.value} </a>
@@ -17,7 +19,8 @@ function Nav() {
             </div>
             <BurgerMenu items={items}/>
         </div>
-    );
+</div>
+);
 }
 
 export default Nav;

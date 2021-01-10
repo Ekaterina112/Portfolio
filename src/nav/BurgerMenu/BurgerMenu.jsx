@@ -9,11 +9,9 @@ function BurgerMenu({items}) {
     const [menuActive, setMenuActive] = useState(false)
     return (
         <div>
-            <nav>
-                <div className={s.burgerBtn} onClick={() => setMenuActive(!menuActive)}>
-                    <FontAwesomeIcon icon={faBars}/>
-                </div>
-            </nav>
+            <div className={s.burgerBtn} onClick={() => setMenuActive(!menuActive)}>
+                <FontAwesomeIcon icon={faBars}/>
+            </div>
             <Menu items={items} header={'menu'} active={menuActive} setActive={setMenuActive}/>
         </div>
     );
