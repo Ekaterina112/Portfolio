@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Menu from "./menu/menu";
-import s from './Burger.module.css'
+import s from './Burger.module.scss'
 import {faBars} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 

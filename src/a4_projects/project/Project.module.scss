@@ -1,3 +1,6 @@
+@import './../../common/styles/sass/variables';
+@import './../../common/styles/sass/mixins';
+
 .project {
   width: 95%;
   margin: 15px 0;
@@ -6,33 +9,27 @@
   .img {
     height: 250px;
     background-color: #fcf9f9;
+    @include flexable(center,center, column);
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-position: center;
     background-size: cover;
 
     h3 {
-      size: 24px;
-      line-height: 26px;
-      color: #ffffff;
-      font-weight: 650;
+      @include text ($textColorH3andBtn,19px,650,26px);
       text-transform: uppercase;
       letter-spacing: 0.40px;
     }
+
     .btn {
       margin-top: 15px;
       background-color: transparent;
       font-family: 'Montserrat', sans-serif;
-      border: 4px solid #ffffff;
-      font-size: 14px;
+      border: 4px solid $textColorH3andBtn;
       border-radius: 0;
-      color: #ffffff;
-      height: 40px;
+      @include text ($textColorH3andBtn,14px,600,30px);
       padding: 0 30px;
       text-transform: uppercase;
-      font-weight: 600;
+
 
       @media only screen and (min-width: 500px) and (max-width: 830px) {
         & {

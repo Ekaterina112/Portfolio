@@ -1,8 +1,7 @@
+@import './../../../common/styles/sass/mixins';
 .data {
     display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
+    @include flexable(space-around,center,column);
     text-align: center;
     min-width: 240px;
     margin-bottom: 30px;

@@ -1,37 +1,28 @@
+@import './../common/styles/sass/variables';
+@import './../common/styles/sass/mixins';
+
+
 .mainBlock {
   min-height: 100vh;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
+  @include flexable(flex-start,stretch,column);
 
   .greeting {
     width: 500px;
     text-align: left;
 
     h1 {
-      font-size: 38px;
-      color: #414141;
-      line-height: 40px;
-      font-weight: 700;
+      @include text($textColorH1,38px,700,40px);
       text-transform: uppercase;
       margin: 0 0 15px;
     }
 
     h5 {
-      font-size: 16px;
-      color: #919191;
+      @include text($textColorH5,16px,700,40px);
       letter-spacing: 1px;
       margin: 0 0 15px;
       text-transform: uppercase;
     }
 
-    p {
-      font-family: 'Poppins', sans-serif;
-      color: #6a6a6a;
-      font-size: 16px;
-      font-weight: 400;
-      margin: 0;
-    }
   }
 
   .photo {

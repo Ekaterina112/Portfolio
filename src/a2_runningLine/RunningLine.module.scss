@@ -1,11 +1,11 @@
+@import './../common/styles/sass/variables';
+@import './../common/styles/sass/mixins';
+
 .runningLineBlock {
-    min-height: 20vh;
-    padding: 80px 0 ;
-    font-size: 50px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #414141;
-    letter-spacing: 1px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
+  min-height: 20vh;
+  padding: 80px 0;
+  @include text($textColorH1, 50px, 700, normal);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
 }

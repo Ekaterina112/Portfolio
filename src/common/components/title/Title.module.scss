@@ -1,8 +1,7 @@
+@import './../../../common/styles/sass/variables';
+@import './../../../common/styles/sass/mixins';
 .title {
-  color: #494949;
-  font-size: 32px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
+  @include text($titleColor,32px,700,normal);
   margin: 0 0 20px;
   text-transform: uppercase;
   position: relative;
@@ -16,7 +15,7 @@
     content: '';
     width: 44px;
     height: 2px;
-    background: #bcbcbc;
+    background: $textColorH2;
     position: absolute;
     left: 50%;
     bottom: -15px;
@@ -28,7 +27,7 @@
     content: '';
     width: 77px;
     height: 2px;
-    background: #bcbcbc;
+    background: $textColorH2;
     position: absolute;
     left: 50%;
     bottom: -20px;

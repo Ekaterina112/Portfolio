@@ -1,5 +1,5 @@
 import React, {useCallback, useEffect, useRef} from 'react'
-import s from './menu.module.css'
+import s from './menu.module.scss'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faTimesCircle} from "@fortawesome/free-solid-svg-icons";
 

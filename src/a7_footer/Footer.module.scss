@@ -1,3 +1,6 @@
+@import './../common/styles/sass/variables';
+@import './../common/styles/sass/mixins';
+
 .footerContainer {
   display: flex;
   padding: 10px 0;
@@ -8,10 +11,7 @@
   }
 
   .copyRightBlock {
-    color: #929292;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 19px;
+    @include text($textColorFooter, 13px, 400, 19px);
   }
 
   ul {
@@ -21,10 +21,7 @@
 
     a {
       padding: 0 13px;
-      color: #929292;
-      font-size: 13px;
-      font-weight: 400;
-      line-height: 19px;
+      @include text($textColorFooter, 13px, 400, 19px);
       text-transform: uppercase;
       text-decoration: none;
     }
