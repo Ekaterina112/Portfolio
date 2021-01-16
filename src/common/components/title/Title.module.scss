@@ -1,0 +1,40 @@
+.title {
+  color: #494949;
+  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+  position: relative;
+
+  h2 {
+    margin: 0 0 15px;;
+  }
+
+  &::before {
+    margin-bottom: 0;
+    content: '';
+    width: 44px;
+    height: 2px;
+    background: #bcbcbc;
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    transform: translate(-50%, 50%);
+  }
+
+  &::after {
+    margin: 0;
+    content: '';
+    width: 77px;
+    height: 2px;
+    background: #bcbcbc;
+    position: absolute;
+    left: 50%;
+    bottom: -20px;
+    transform: translate(-50%, 50%);
+  }
+}
+
+
+

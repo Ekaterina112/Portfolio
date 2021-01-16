@@ -1,13 +1,15 @@
 import React from "react";
 import './App.css';
-import Header from "./header/Header";
-import Main from "./main/Main";
-import Skills from "./skills/Skills";
-import Projects from "./projects/Projects";
-import Vacancy from "./vacansy/Vacancy";
-import Footer from "./footer/Footer";
-import Contacts from "./contacts/Contacts";
-import RunningLine from "./runningLine/RunningLine";
+import Header from "./a0_header/Header";
+import Main from "./a1_main/Main";
+import Vacancy from "./a5_vacansy/Vacancy";
+import Footer from "./a7_footer/Footer";
+
+import RunningLine from "./a2_runningLine/RunningLine";
+import Projects from "./a4_projects/Projects";
+import Skills from "./a3_skills/Skills";
+import Contacts from "./a6_contacts/Contacts";
+
 
 
 function App() {

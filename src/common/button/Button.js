@@ -1,12 +1,12 @@
 import React from 'react'
-import styles from './Button.module.css';
+import styles from './Button.module.scss';
 
 
-function Button(props) {
+function Button({title}) {
     return <div>
         <button className={styles.button}>
             <a>
-            {props.title}
+                {title}
             </a>
         </button>
     </div>
