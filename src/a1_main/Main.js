@@ -5,6 +5,7 @@ import photo from '../assets/images/photo.jpg';
 import Button from "../common/button/Button";
 
 function Main() {
+
     return (
         <div className={styles.mainBlock}>
             <div className={stylesContainer.container}>
@@ -15,7 +16,7 @@ function Main() {
                     <Button title={"download my cv"}/>
                 </div>
                 <div className={styles.photo}>
-                    <img src={photo} alt="it's me"   />
+                    <img src={photo} alt="it's me"/>
                 </div>
             </div>
         </div>
