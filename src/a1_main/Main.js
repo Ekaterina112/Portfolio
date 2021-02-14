@@ -7,7 +7,7 @@ import Button from "../common/button/Button";
 function Main() {
 
     return (
-        <div className={styles.mainBlock}>
+        <div className={styles.mainBlock} id='home'>
             <div className={stylesContainer.container}>
                 <div className={styles.greeting}>
                     <h5>Hello, my name is</h5>

@@ -10,7 +10,7 @@ import {faSketch} from "@fortawesome/free-brands-svg-icons";
 
 function Skills() {
     return (
-        <div className={styles.skillsBlock}>
+        <div className={styles.skillsBlock} id='skills'>
             <div className={`${stylesContainer.container} ${styles.skillsContainer}`}>
                 <Title title={'My Skills'}/>
                 <div className={styles.skills}>

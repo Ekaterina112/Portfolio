@@ -8,10 +8,10 @@ function Footer() {
         <div className={`${stylesContainer.container} ${styles.footerContainer}`}>
             <p className={styles.copyRightBlock}>© 2021, All Rights Reserved.</p>
             <ul>
-                <li><a href={'git'}>git</a></li>
+                <li><a href={'https://github.com/Ekaterina112'}>git</a></li>
                 <li><a href={'linkedIn'}>linkedIn</a></li>
-                <li><a href={'email'}>email</a></li>
-                <li><a href={'instagram'}>instagram</a></li>
+                <li><a href={'https://ekaterinan112@gmail.com'}>email</a></li>
+                <li><a href={'https://www.instagram.com/naumchik_katerina'}>instagram</a></li>
             </ul>
         </div>
     );

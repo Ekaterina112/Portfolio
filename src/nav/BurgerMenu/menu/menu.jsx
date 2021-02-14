@@ -2,6 +2,7 @@ import React, {useCallback, useEffect, useRef} from 'react'
 import s from './menu.module.scss'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faTimesCircle} from "@fortawesome/free-solid-svg-icons";
+import {Link} from "react-scroll";
 
 function Menu({header, items, active, setActive}) {
 
@@ -41,7 +42,14 @@ function Menu({header, items, active, setActive}) {
                 <div className={s.items}>
                     {items.map(item =>
                         <div className={s.oneItem}>
-                            <a href={item.href}>{item.value}</a>
+                            <Link
+                                activeClass={s.active}
+                                to={item.href}
+                                spy={true}
+                                smooth={true}
+                                offset={-100}
+                                duration={500}
+                            >{item.value}</Link>
                         </div>)}
                 </div>
             </div>

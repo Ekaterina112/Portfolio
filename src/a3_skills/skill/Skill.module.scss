@@ -1,3 +1,5 @@
+@import './../../common/styles/sass/mixins';
+@import './../../common/styles/sass/variables';
 .skill {
   width: 240px;
   display: flex;
@@ -7,6 +9,9 @@
   padding: 50px 10px 60px 10px;
   margin-bottom: 30px;
   box-shadow: 0 1px 5px rgba(5, 5, 6, 0.15);
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 
   h5 {
     color: #757575;
@@ -23,11 +28,8 @@
   }
 
   p {
+    @include text(#979797, 14px, 400, 24px, normal);
     font-family: 'Poppins', sans-serif;
-    color: #979797;
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 400;
     margin: 0;
   }
 
@@ -40,14 +42,31 @@
     margin-bottom: 20px;
     border: 1px solid #8a8a8a;
     border-radius: 50%;
-    color: #8a8a8a;
-    font-size: 19px;
+    @include text(#8a8a8a, 19px, 400, 36px, normal);
     height: 36px;
-    line-height: 36px;
     width: 36px;
-
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
     .icon {
+      -webkit-transition: all 0.3s ease 0s;
+      -o-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s;
       font-size: 20px;
+    }
+  }
+
+  &:hover {
+    box-shadow: 0 4px 15px rgba(5, 5, 6, 0.1);
+    -webkit-box-shadow: 0 3px 20px rgba(5, 5, 6, 0.10);
+
+    .image {
+      background: $backgroundColorBtn none repeat scroll 0 0;
+      border-color:$backgroundColorBtn;
+
+      .icon {
+        color: white;
+      }
     }
   }
 }

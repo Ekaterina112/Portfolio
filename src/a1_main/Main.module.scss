@@ -11,14 +11,14 @@
     text-align: left;
 
     h1 {
-      @include text($textColorH1,38px,700,40px);
+      @include text($textColorH1,38px,700,40px,normal);
       text-transform: uppercase;
       margin: 0 0 15px;
+      line-height: 1.1;
     }
 
     h5 {
-      @include text($textColorH5,16px,700,40px);
-      letter-spacing: 1px;
+      @include text($textColorH5,16px,700,40px, 1px);
       margin: 0 0 15px;
       text-transform: uppercase;
     }

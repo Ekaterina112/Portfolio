@@ -9,34 +9,44 @@
   .img {
     height: 250px;
     background-color: #fcf9f9;
-    @include flexable(center,center, column);
+    @include flexable(center, center, column);
     display: flex;
     background-position: center;
     background-size: cover;
 
-    h3 {
-      @include text ($textColorH3andBtn,19px,650,26px);
-      text-transform: uppercase;
-      letter-spacing: 0.40px;
-    }
+    .overlay {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
 
-    .btn {
-      margin-top: 15px;
-      background-color: transparent;
-      font-family: 'Montserrat', sans-serif;
-      border: 4px solid $textColorH3andBtn;
-      border-radius: 0;
-      @include text ($textColorH3andBtn,14px,600,30px);
-      padding: 0 30px;
-      text-transform: uppercase;
+      h3 {
+        @include text($textColorH3andBtn, 19px, 650, 26px, 0.40px);
+        text-transform: uppercase;
+      }
 
+      .btn {
+        margin-top: 15px;
+        background-color: transparent;
+        font-family: 'Montserrat', sans-serif;
+        border: 4px solid $textColorH3andBtn;
+        border-radius: 0;
+        @include text($textColorH3andBtn, 14px, 600, 30px, normal);
+        padding: 0 30px;
+        text-transform: uppercase;
 
-      @media only screen and (min-width: 500px) and (max-width: 830px) {
-        & {
-          padding: 0 10px;
+        @media only screen and (min-width: 500px) and (max-width: 830px) {
+          & {
+            padding: 0 10px;
+          }
         }
       }
+
+      &:hover {
+      }
     }
+
+
   }
 }
 

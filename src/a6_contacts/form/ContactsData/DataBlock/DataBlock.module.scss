@@ -9,7 +9,7 @@
   text-align: left;
 
   h4 {
-    @include text( $textColorH4,18px,400,20px);
+    @include text( $textColorH4,18px,400,20px,normal);
     margin: 0;
     text-transform: capitalize;
   }
@@ -18,7 +18,7 @@
     outline: none;
     cursor: pointer;
     text-decoration: none;
-    @include text( #979797,14px,400,14px);
+    @include text( #979797,14px,400,14px,normal);
   }
 
   .icon {

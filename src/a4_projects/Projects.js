@@ -8,14 +8,14 @@ import imgTwo from '../assets/images/gallery-photo-2.png'
 import imgThree from '../assets/images/gallery-photo-3.png'
 import imgFour from '../assets/images/gallery-photo-4.png'
 import imgFive from '../assets/images/gallery-photo-5.png'
-import imgSix from '../assets/images/gallery-photo-6-7.png'
+import imgSix from '../assets/images/gallery-photo-6.png'
 import imgSeven from '../assets/images/gallery-photo-7.jpg'
 import imgEight from '../assets/images/gallery-photo-8.png'
 
 
 function Projects() {
     return (
-        <div className={styles.projectsBlock}>
+        <div className={styles.projectsBlock} id='portfolio'>
             <div className={`${stylesContainer.container} ${styles.projectsContainer}`}>
                 <Title title={'My portfolio'}/>
                 <div className={styles.projects}>

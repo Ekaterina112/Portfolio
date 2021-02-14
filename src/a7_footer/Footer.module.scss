@@ -11,7 +11,7 @@
   }
 
   .copyRightBlock {
-    @include text($textColorFooter, 13px, 400, 19px);
+    @include text($textColorFooter, 13px, 400, 19px,normal);
   }
 
   ul {
@@ -21,9 +21,12 @@
 
     a {
       padding: 0 13px;
-      @include text($textColorFooter, 13px, 400, 19px);
+      @include text($textColorFooter, 13px, 400, 19px,normal);
       text-transform: uppercase;
       text-decoration: none;
+      &:hover{
+        color: #000000;
+      }
     }
   }
 }

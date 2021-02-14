@@ -19,13 +19,43 @@
     align-items: center;
     justify-content: flex-end;
 
-    a {
-      @include text(#777777, 14px, 650, 40px);
+    .link {
+      @include text(#777777, 14px, 650, 40px, 0.40px);
       text-decoration: none;
-      margin: 0 10px;
       padding: 0 5px;
       text-transform: uppercase;
-      letter-spacing: 0.40px;
+      position: relative;
+      margin-right: 20px;
+      transition: all 1s ease;
+      cursor: pointer;
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &::after {
+        background: #afafaf none repeat scroll 0 0;
+        content: "";
+        height: 2px;
+        left: 0;
+        margin-top: -1px;
+        -webkit-margin-before: -2px;
+        position: absolute;
+        top: 50%;
+      }
+      &:hover {
+        transition: all 1s ease;
+        @include text(#afafaf, 14px, 650, 40px, 0.40px);
+        &::after {
+          width: 100%;
+        }
+      }
+    }
+
+    .active {
+      @include text(#afafaf, 14px, 650, 40px, 0.40px);
+      &::after {
+        width: 100%;
+      }
     }
   }
 
@@ -35,6 +65,7 @@
     }
 
   }
+
 }
 
 
