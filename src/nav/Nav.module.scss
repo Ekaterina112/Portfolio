@@ -26,8 +26,9 @@
       text-transform: uppercase;
       position: relative;
       margin-right: 20px;
-      transition: all 1s ease;
       cursor: pointer;
+      transition: all 0.3s ease;
+
       &:last-child {
         margin-right: 0;
       }
@@ -41,10 +42,12 @@
         -webkit-margin-before: -2px;
         position: absolute;
         top: 50%;
+        transition: all 0.3s ease 0s;
       }
+
       &:hover {
-        transition: all 1s ease;
         @include text(#afafaf, 14px, 650, 40px, 0.40px);
+
         &::after {
           width: 100%;
         }
@@ -63,9 +66,7 @@
     .menu {
       display: none
     }
-
   }
-
 }
 
 

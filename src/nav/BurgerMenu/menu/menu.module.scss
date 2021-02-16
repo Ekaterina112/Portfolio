@@ -66,14 +66,24 @@
     .oneItem {
       width: 100%;
       border-bottom: 1px solid $colorMenu;
-      padding: 10px;
       text-align: center;
 
-      a {
+      .link {
+        display: block;
         padding: 13px 0;
         @include text($textColorH3andBtn, 14px, 650, 14px, normal);
         text-decoration: none;
         text-transform: uppercase;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover {
+          background: #000000 none repeat scroll 0 0;
+        }
+      }
+
+      .active {
+        background: #000000 none repeat scroll 0 0;
       }
     }
   }

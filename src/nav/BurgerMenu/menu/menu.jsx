@@ -43,13 +43,14 @@ function Menu({header, items, active, setActive}) {
                     {items.map(item =>
                         <div className={s.oneItem}>
                             <Link
+                                className={s.link}
                                 activeClass={s.active}
-                                to={item.href}
+                                to={item}
                                 spy={true}
                                 smooth={true}
-                                offset={-100}
+                                offset={-99}
                                 duration={500}
-                            >{item.value}</Link>
+                            >{item}</Link>
                         </div>)}
                 </div>
             </div>

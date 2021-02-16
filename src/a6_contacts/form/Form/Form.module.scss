@@ -35,10 +35,10 @@
     max-height: 300px;
     border: 1px solid $colorForBorderInForm;
     margin: 40px 0 20px 0;
-    width: 100%;
+    padding: 11px;
+    width: 95%;
     height: 100px;
     resize: none;
-    padding: 10px 20px;
   }
 
   &:active, :hover, :focus {
