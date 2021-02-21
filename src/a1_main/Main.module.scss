@@ -5,7 +5,9 @@
 .mainBlock {
   min-height: 100vh;
   @include flexable(flex-start,stretch,column);
-
+  .container{
+    @include container();
+  }
   .greeting {
     width: 500px;
     text-align: left;

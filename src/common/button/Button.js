@@ -2,10 +2,10 @@ import React from 'react'
 import styles from './Button.module.scss';
 
 
-function Button({title}) {
+function Button({title,href,download}) {
     return <div>
         <button className={styles.button}>
-            <a>
+            <a href={href} download={download}>
                 {title}
             </a>
         </button>

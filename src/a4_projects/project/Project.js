@@ -6,11 +6,11 @@ export const Project = ({img, description, link, title}) => {
         <div className={s.project}>
             <div className={s.img} style={{backgroundImage: `url(${img})`}}>
                 <div className={s.overlay}>
-                    <h3>{title}</h3>
-                    <span>{description}</span>
-                    <a href={link}>
-                        <button className={s.btn}>view project</button>
-                    </a>
+                    <div className={s.description}>
+                        <h3>{title}</h3>
+                        <p>{description}</p>
+                        <a href={link} className={s.btn} target="_blank"  rel="noreferrer">view project</a>
+                    </div>
                 </div>
             </div>
         </div>

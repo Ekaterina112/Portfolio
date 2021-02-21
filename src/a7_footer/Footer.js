@@ -1,17 +1,15 @@
 import React from 'react'
 import styles from './Footer.module.scss';
-import stylesContainer from '../common/styles/Container.module.scss'
 
 
 function Footer() {
+    let items=[{href:'https://github.com/Ekaterina112',title:'git'},{href:'linkedIn',title:'linkedIn'},
+        {href:'https://ekaterinan112@gmail.com2',title:'email'},{href:'https://www.instagram.com/naumchik_katerina',title:'instagram'},]
     return (
-        <div className={`${stylesContainer.container} ${styles.footerContainer}`}>
+        <div className={styles.footerContainer}>
             <p className={styles.copyRightBlock}>© 2021, All Rights Reserved.</p>
             <ul>
-                <li><a href={'https://github.com/Ekaterina112'}>git</a></li>
-                <li><a href={'linkedIn'}>linkedIn</a></li>
-                <li><a href={'https://ekaterinan112@gmail.com'}>email</a></li>
-                <li><a href={'https://www.instagram.com/naumchik_katerina'}>instagram</a></li>
+                {items.map(e=>  <li><a href={e.href} target="_blank"  rel="noreferrer">{e.title}</a></li>)}
             </ul>
         </div>
     );

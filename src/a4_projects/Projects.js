@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './Projects.module.scss';
-import stylesContainer from '../common/styles/Container.module.scss'
 import {Project} from "./project/Project";
 import Title from "../common/components/title/Title";
 import imgOne from './../assets/images/gallery-photo-1.png'
@@ -16,30 +15,30 @@ import imgEight from '../assets/images/gallery-photo-8.png'
 function Projects() {
     return (
         <div className={styles.projectsBlock} id='portfolio'>
-            <div className={`${stylesContainer.container} ${styles.projectsContainer}`}>
+            <div className={styles.projectsContainer}>
                 <Title title={'My portfolio'}/>
                 <div className={styles.projects}>
                     <Project
                         title={"todolist"}
                         img={imgOne}
-                        description={"short description of the project..."}
-                        link={"link #1"}/>
+                        description={"TS, Redux, RestAPI, Thunk,Material UI, Unit Tests"}
+                        link={"https://Ekaterina112.github.io/it-incubator-todolist-ts"}/>
                     <Project
                         title={"counter"}
                         img={imgTwo}
-                        description={"short description of the project..."}
-                        link={"link #2"}/>
+                        description={"My first project with React/Redux/TS.I left It here as a memory."}
+                        link={"https://Ekaterina112.github.io/counter-with-redux"}/>
 
                     <Project
                         title={"the social network"}
                         img={imgThree}
-                        description={"short description of the project..."}
-                        link={"link #4"}/>
+                        description={"TS, Redux, RestAPI, Thunk,ANT Design, Unit Tests"}
+                        link={"https://Ekaterina112.github.io/TheSocialNetwork/"}/>
 
                     <Project
-                        title={"future project"}
+                        title={"Study Point"}
                         img={imgFour}
-                        description={"...in progress"}
+                        description={"It was a command work. App for learning some cards"}
                         link={"link #3"}/>
 
                     <Project

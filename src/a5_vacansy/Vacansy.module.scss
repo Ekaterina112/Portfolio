@@ -1,3 +1,5 @@
+@import './../common/styles/sass/mixins';
+
 .vacancyBlock {
   max-height: 20vh;
   padding: 80px 0;
@@ -6,6 +8,7 @@
     justify-content: flex-start;
     flex-direction: column;
     text-align: center;
+    @include container();
   }
 }
 

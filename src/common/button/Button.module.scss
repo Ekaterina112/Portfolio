@@ -17,4 +17,10 @@
   &:hover {
     background-color: #000000;
   }
+
+  a {
+    @include text($textColorH3andBtn, 14px, 650, 50px, normal);
+    text-decoration: none;
+
+  }
 }
