@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Main.module.scss';
-import photo from '../assets/images/photo.jpg';
+import photo from '../assets/images/photo.jpg'
 import Button from "../common/button/Button";
 
 function Main() {
