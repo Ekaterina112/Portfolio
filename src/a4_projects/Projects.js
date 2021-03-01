@@ -39,7 +39,7 @@ function Projects() {
                         title={"Study Point"}
                         img={imgFour}
                         description={"It was a command work. App for learning some cards"}
-                        link={"https://Ekaterina112.github.io/friday"}/>
+                        link={"https://sergey-lang.github.io/Card-Learning/#/login"}/>
 
                     <Project
                         title={"future project"}
