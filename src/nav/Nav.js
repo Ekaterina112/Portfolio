@@ -8,8 +8,9 @@ function Nav() {
     return (
         <div className={s.navigation}>
             <div className={s.container}>
-                {items.map(item =>
+                {items.map((item, index) =>
                     <Link
+                        key={index}
                         className={s.link}
                         activeClass={s.active}
                         to={item}

@@ -19,7 +19,7 @@ function Menu({header, items, active, setActive}) {
                 setActive(false);
             }
         },
-        [active, modalRef]
+        [active, modalRef,setActive]
     );
 
     useEffect(() => {
@@ -40,9 +40,10 @@ function Menu({header, items, active, setActive}) {
                     {header}
                 </div>
                 <div className={s.items}>
-                    {items.map(item =>
+                    {items.map((item, index) =>
                         <div className={s.oneItem}>
                             <Link
+                                key={index}
                                 className={s.link}
                                 activeClass={s.active}
                                 to={item}

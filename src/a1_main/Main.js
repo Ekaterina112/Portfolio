@@ -1,8 +1,9 @@
 import React from 'react'
 import styles from './Main.module.scss';
 import photo from '../assets/images/photo.jpg'
-import cv from '../assets/KaterinaNaumchik_CV.pdf'
+import cv from '../assets/CV_KaterinaNaumchik.pdf'
 import Button from "../common/button/Button";
+
 
 function Main() {
 
