@@ -41,9 +41,9 @@ function Menu({header, items, active, setActive}) {
                 </div>
                 <div className={s.items}>
                     {items.map((item, index) =>
-                        <div className={s.oneItem}>
+                        <div key={index} className={s.oneItem}>
                             <Link
-                                key={index}
+
                                 className={s.link}
                                 activeClass={s.active}
                                 to={item}
