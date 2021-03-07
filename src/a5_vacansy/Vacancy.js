@@ -2,7 +2,8 @@ import React, {useState} from 'react'
 import st from './Vacansy.module.scss';
 import Title from "../common/components/title/Title";
 import HiringModal from "../common/components/ModalWindow/ModalWindox";
-import ButtonHiring from "../common/button/ButtonHiring";
+import Button from "../common/button/Button";
+
 
 
 function Vacancy() {
@@ -16,7 +17,7 @@ function Vacancy() {
         <div className={st.vacancyBlock}>
             <div className={st.vacancyContainer}>
                 <Title title={'I Am Available For Freelance'}/>
-                <ButtonHiring title={" HIRE ME"} click={handlerModal}/>
+                <Button title={" HIRE ME"} click={handlerModal}/>
                 <HiringModal active={activeModal} setActive={setActiveModal}>
                     <div>
                         <div className={st.header}>
