@@ -16,4 +16,4 @@ function Skill({title, description, titleIcon}) {
     );
 }
 
-export default Skill;
+export default Skill

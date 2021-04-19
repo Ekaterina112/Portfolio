@@ -42,10 +42,10 @@ function Projects() {
                         link={"https://sergey-lang.github.io/Card-Learning/#/login"}/>
 
                     <Project
-                        title={"future project"}
+                        title={"Rainfo"}
                         img={imgFive}
-                        description={"...in progress"}
-                        link={"link #5"}/>
+                        description={"It's my first project with Next.JS"}
+                        link={"https://weather-app-kohl-eight.vercel.app/"}/>
 
                     <Project
                         title={"future project"}
