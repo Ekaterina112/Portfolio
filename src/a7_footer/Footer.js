@@ -3,10 +3,10 @@ import styles from './Footer.module.scss';
 
 
 function Footer() {
-    let items = [{
+    let items = [/*{
         href: 'https://github.com/Ekaterina112',
         title: 'git'
-    }, {href: 'https://www.linkedin.com/in/ekaterina-naumchik/', title: 'linkedIn'},
+    }*/, {href: 'https://www.linkedin.com/in/ekaterina-naumchik/', title: 'linkedIn'},
         {
             href: 'https://ekaterinan112@gmail.com2',
             title: 'email'
